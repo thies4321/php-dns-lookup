@@ -1,0 +1,27 @@
+{
+    "name": "thies4321/php-dns-lookup",
+    "type": "standard",
+    "description": "DNS lookup library written in PHP",
+    "homepage": "https://github.com/thies4321/php-dns-lookup",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DnsLookup\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DnsLookup\\": "tests/"
+        }
+    },
+    "bin": ["bin/dns-lookup"],
+    "require": {
+        "php": "^8.2",
+        "symfony/console": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "psy/psysh": "@stable",
+        "phpstan/phpstan": "^1.10"
+    }
+}
